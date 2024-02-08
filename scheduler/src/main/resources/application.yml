@@ -1,0 +1,11 @@
+server:
+  port: 9090
+
+automaticDtc:
+  tat:
+    code: JPN-E0-31, JPN-D3-31, JPN-B6-31
+  release:
+    enable: true
+  cron:
+    expression: "0/15 * * * * *"
+    timezone: IST
